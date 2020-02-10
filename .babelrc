@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./node_modules/"],
+      "alias": {
+        "dir1": "./src/Dir1",
+        "dir2": "./src/Dir2"
+      }
+    }]
+  ]
+}

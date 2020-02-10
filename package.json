@@ -1,0 +1,23 @@
+{
+  "name": "port_proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devServer": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-copy-plugin": "0.0.4",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
