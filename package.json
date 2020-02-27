@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devServer": "webpack-dev-server --open",
+    "devServer": "webpack-dev-server --open --host",
     "build": "webpack --mode production"
   },
   "author": "",
